@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"  type="text/css">
+    <title>Meu Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="titulo"> Programador Web</h2>
+        <P id="subtitulo">Complete suas informações</P>
+    
+    <form class="formulario">
+        <fieldset class="fiel">
+            
+            <div class="inputtex">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome"/>
+            </div>
+
+            <div class="inputtex">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" />
+            </div>
+            
+            <div class="inputtex">
+                 <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" />
+           </div>
+           <div class="clear"></div><!--clear-->
+   
+
+           <div class="idade">
+                <h2> Qual a sua idade </h2>
+                <select class="lista">
+                    <option disabled selected>Selecione</option>
+                    <option value="18">18 a 20</option>
+                    <option value="21">21 a 30</option>
+                    <option value="40">31 a 40</option>
+                    <option value="41+">41+ </option> 
+               </select><!--lista-->
+             </div><!--idade-->
+
+
+            <div class="aplicacao">
+                <h2>De qual lado da aplicação você desenvolve?</h2>
+            <label><input type="radio" name="dew" value="frontend" checked/>Front-end </label>
+            <label><input type="radio" name="dew" value="backend"/>Back-end </label>
+            <label><input type="radio" name="dew" value="front end"/>Full-Stack </label>
+            </div><!--aplicacao-->
+
+        </fieldset><!--fiel-->
+
+            <div class="area">
+                <textarea placeholder="Conte-nos um pouco sobre você!"></textarea>
+            </div><!--textearea-->
+
+            <button class="botao" type="submit" name="acao" value="Enviar">Enviar</button>
+        
+
+
+
+       
+
+    </form><!--formulario-->
+    
+</body>
+</div><!--container-->
+</html>
+
